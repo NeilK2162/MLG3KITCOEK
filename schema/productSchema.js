@@ -3,19 +3,19 @@ const mongoose = require('mongoose')
 const productSchema = new mongoose.Schema({
   productName: {
     type: String,
-    required: [true, 'Product Type is required']
+    required: [true, 'Tushar']
   },
   displaySize: {
     type: String,
-    required: [true, 'Dispaly Type is required']
+    required: [true, 'yy']
   },
   RAMSize: {
     type: String,
-    required: [true, 'RAM Number is required']
+    required: [true, 'Raj Madar']
   },
   internalMemory: {
     type: String,
-    required: [true, 'Internal memory type is required']
+    required: [true, 'kay Kay raj']
   },
   brand: {
     type: String,
